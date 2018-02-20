@@ -61,6 +61,14 @@ You're going to need to add some secrets for production. That's fine, as long as
 You can also specify any secret keys or settings in a `local_settings.py`, which will override your `settings.py`
 variables. I usually use that for local development.
 
+## Troubleshooting
+
+If `docker-compose up` fails not finding `/bin/python` it's due to a pipenv bug, for now remedy the situation by doing:
+
+```
+pip install pipenv==8.1.2
+```
+
 ## License
 
 * Copyright © Thanasis Polychronakis, Stavros Korokithakis. Licensed under the [MIT license](/LICENSE).
