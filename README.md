@@ -63,4 +63,4 @@ variables. I usually use that for local development.
 
 ## License
 
-* Copyright © Thanasis Polychronakis, Stavros Korokithakis. Licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* Copyright © Thanasis Polychronakis, Stavros Korokithakis. Licensed under the [MIT license](/LICENSE).
